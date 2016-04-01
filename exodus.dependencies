@@ -2,5 +2,9 @@
   {
     "repository": "device_samsung_klte-common",
     "target_path": "device/samsung/klte-common"
+  },
+  {
+    "repository": "vendor_samsung_klte",
+    "target_path": "vendor/samsung/klte"
   }
 ]
