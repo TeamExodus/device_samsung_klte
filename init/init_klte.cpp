@@ -72,7 +72,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "klteub-user 6.0.1 MMB29M G900MUBU1CPC4 release-keys");
         property_set("ro.product.model", "SM-G900M");
         property_set("ro.product.device", "klte");
-        gsm_properties();
     } else if (strstr(bootloader, "G900A")) {
         /* klteatt */
         property_set("ro.build.fingerprint", "samsung/klteuc/klteatt:5.1.1/LMY47X/G900AUCU4CPA1:user/release-keys");
@@ -97,7 +96,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "kltexx-user 6.0.1 MMB29M G900FXXU1CPDF release-keys");
         property_set("ro.product.model", "SM-G900F");
         property_set("ro.product.device", "klte");
-        gsm_properties();
     }
 
     property_get("ro.product.device", device);
